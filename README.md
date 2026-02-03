@@ -22,7 +22,7 @@ Available on the [App Store](https://apps.apple.com/app/your-app-id) (link comin
 ## Support
 
 For support, questions, or feedback:
-- **Email**: your-email@example.com
+- **Email**: zbentleyapps@gmail.com
 
 ## Privacy
 
