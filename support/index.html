@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — My Daily Steps Log</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --accent: #007aff;
+      --border: #e5e5ea;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1c1e;
+        --card: #2c2c2e;
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --accent: #0a84ff;
+        --border: #38383a;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .header .subtitle {
+      font-size: 16px;
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      margin-top: 16px;
+    }
+    h3:first-child { margin-top: 0; }
+    p, li {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 8px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .cta {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    .cta:hover { opacity: 0.9; text-decoration: none; }
+    .nav {
+      text-align: center;
+      margin-bottom: 32px;
+      font-size: 14px;
+    }
+    .nav a { margin: 0 12px; }
+    .footer {
+      text-align: center;
+      padding-top: 32px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>My Daily Steps Log</h1>
+      <p class="subtitle">Transform your daily walking into meaningful progress — the comprehensive step and activity tracking app for iPhone and Apple Watch.</p>
+    </div>
+
+    <div class="nav">
+      <a href="#features">Features</a>
+      <a href="#support">Support</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#requirements">Requirements</a>
+    </div>
+
+    <div id="features"></div>
+
+    <div class="card">
+      <h2>Comprehensive Step Tracking</h2>
+      <ul>
+        <li>View your daily, weekly, monthly, and yearly step totals at a glance</li>
+        <li>Track your progress toward your personalized daily step goal</li>
+        <li>Monitor distance, calories burned, and active time</li>
+        <li>Beautiful, intuitive charts and visualizations</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Goal Tracking &amp; Streaks</h2>
+      <ul>
+        <li>Set and customize your daily step goal</li>
+        <li>Track your current and longest streaks</li>
+        <li>See days with goal achievements and percentage tracking</li>
+        <li>Monitor progress since your first goal day</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Activity Goals</h2>
+      <ul>
+        <li>Set goals for specific activities or all activities combined</li>
+        <li>Track by distance, count, duration, or calories</li>
+        <li>Flexible date ranges — this year, this month, next month, or custom</li>
+        <li>Support for multiple goals per activity with different time frames</li>
+        <li>Year-over-year goal history</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Activity &amp; Workout Integration</h2>
+      <ul>
+        <li>Seamlessly integrates with Apple Health to pull in your data automatically</li>
+        <li>Track 80+ workout and activity types</li>
+        <li>Filter by activity type (running, walking, cycling, hiking, and many more)</li>
+        <li>View detailed workout statistics and routes</li>
+        <li>Import workout files for manual tracking</li>
+        <li>Manage and override workout data directly in the app</li>
+        <li>Customize colors for each activity type</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Detailed Statistics</h2>
+      <ul>
+        <li>All-time totals</li>
+        <li>View previous years</li>
+        <li>Monthly breakdowns</li>
+        <li>Activity rings for calories, exercise, and stand goals</li>
+        <li>Step totals by year with sorting options</li>
+        <li>Customizable data views</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Apple Watch App <span class="badge">watchOS</span></h2>
+      <ul>
+        <li>Companion watchOS app with step count, goal progress, and distance</li>
+        <li>Circular progress gauge with color-coded goal tracking</li>
+        <li>Manual refresh and automatic sync on app open</li>
+        <li>Background gradient synced from iPhone app settings</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Apple Watch Complications <span class="badge">watchOS</span></h2>
+      <ul>
+        <li><strong>Corner (Fill)</strong> — step count with a filled progress bar</li>
+        <li><strong>Corner (Dot)</strong> — step count with an open gauge showing 0 to goal</li>
+        <li><strong>Corner (Text)</strong> — step count with "Steps" label</li>
+        <li><strong>Circular</strong> — ring gauge with step count and "steps" label</li>
+        <li><strong>Rectangular</strong> — progress ring with percentage, step count, goal, and distance</li>
+        <li>Color-coded progress (red → orange → yellow → green)</li>
+        <li>Automatic updates every 30 minutes</li>
+        <li>Tapping any complication opens the Watch app with an immediate refresh</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Personalization</h2>
+      <ul>
+        <li>Choose from 25+ color themes including Pro iPhone-inspired colors</li>
+        <li>Customize background gradients (dark and light modes) or use your own photos</li>
+        <li>Set custom accent colors with full color wheel support</li>
+        <li>Per-section color themes for daily, weekly, monthly, and yearly views</li>
+        <li>Set your preferred distance units (miles or kilometers)</li>
+        <li>Configure week start day and time format (12-hour or 24-hour)</li>
+        <li>Create a personalized profile with name and photo</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Guided Onboarding</h2>
+      <ul>
+        <li>Step-by-step setup for profile, preferences, and Apple Health connection</li>
+        <li>Live customization preview during onboarding</li>
+        <li>Optional data override and workout import prompts</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Tip Jar</h2>
+      <ul>
+        <li>Support development with optional tips</li>
+        <li>Preset and custom tip amounts</li>
+      </ul>
+    </div>
+
+    <div class="card" style="text-align: center;">
+      <h2>Download</h2>
+      <p>Available on the App Store for iPhone and Apple Watch.</p>
+      <a class="cta" href="https://apps.apple.com/app/your-app-id">Download on the App Store</a>
+    </div>
+
+    <div class="card" id="support">
+      <h2>Support</h2>
+      <p>For support, questions, or feedback:</p>
+      <p><strong>Email:</strong> <a href="mailto:zbentleyapps@gmail.com">zbentleyapps@gmail.com</a></p>
+    </div>
+
+    <div class="card" id="privacy">
+      <h2>Privacy &amp; Health</h2>
+      <p>My Daily Steps Log integrates with Apple Health to access your step and workout data. All data is stored securely on your device. We never sell or share your personal health information.</p>
+      <ul>
+        <li>Only reads data from Apple Health</li>
+        <li>Stores data locally on your device</li>
+        <li>No third-party analytics or tracking</li>
+        <li>No ads</li>
+      </ul>
+      <p><a href="../privacy-policy/">View full Privacy Policy</a></p>
+    </div>
+
+    <div class="card" id="requirements">
+      <h2>Requirements</h2>
+      <ul>
+        <li>iOS 17.0 or later</li>
+        <li>watchOS 10.0 or later (for Apple Watch companion app)</li>
+        <li>iPhone (required)</li>
+        <li>Apple Watch (optional, for complications and wrist-based tracking)</li>
+        <li>Apple Health access required for step and workout tracking</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <p>Made with &#10084;&#65039; by Zachary Bentley</p>
+      <p style="margin-top: 8px;"><a href="../privacy-policy/">Privacy Policy</a></p>
+      <p>&copy; 2026 My Daily Steps Log. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
