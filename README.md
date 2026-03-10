@@ -1,6 +1,6 @@
-# My Daily Steps Log
+# My Daily Steps & Activities
 
-Transform your daily walking into meaningful progress with My Daily Steps Log, the comprehensive step and activity tracking app designed to keep you motivated and active — now on iPhone and Apple Watch.
+Transform your daily walking into meaningful progress with My Daily Steps & Activities, the comprehensive step and activity tracking app designed to keep you motivated and active — now on iPhone and Apple Watch.
 
 ## Features
 
@@ -85,7 +85,7 @@ For support, questions, or feedback:
 
 ## Privacy & Health
 
-My Daily Steps Log integrates with Apple Health to access your step and workout data. All data is stored securely on your device. We never sell or share your personal health information.
+My Daily Steps & Activities integrates with Apple Health to access your step and workout data. All data is stored securely on your device. We never sell or share your personal health information.
 
 This app:
 - Only reads data from Apple Health
